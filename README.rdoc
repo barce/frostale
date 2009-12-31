@@ -1,6 +1,15 @@
 = frostale
 
-Description goes here.
+Frostale is an Active Directory Login for the Enterprise.
+
+To use it's quite simple:
+
+user = Frostale.new('user@example.com','pass', 
+	'domain\group Global Admins',
+	'http://example.com/WPAuth.asmx?WSDL')
+user.authenticate
+puts "authenticated" if user.isAuth == 'true'
+
 
 == Note on Patches/Pull Requests
  

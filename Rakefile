@@ -5,13 +5,25 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "frostale"
-    gem.summary = %Q{TODO: one-line summary of your gem}
+    gem.summary = %Q{Active Directory Login for the Enterprise}
     gem.description = %Q{TODO: longer description of your gem}
     gem.email = "jbarcelona@gmail.com"
     gem.homepage = "http://github.com/barce/frostale"
     gem.authors = ["barce"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    # gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+	 gem.add_dependency 'aws-s3','0.6.2'
+
+
+    gem.post_install_message = <<-POST_INSTALL_MESSAGE
+ 
+ 
+Thank you for installing frostale - more infor is at
+http://github.com/barce/frostale
+ 
+ 
+POST_INSTALL_MESSAGE
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
