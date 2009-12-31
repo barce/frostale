@@ -2,7 +2,15 @@
 
 Frostale is an Active Directory Login for the Enterprise.
 
-To use it's quite simple:
+Who should use it?
+
+* You have Active Directory used for controlling access to networked assets.
+* You want to use Ruby in addition to your current technologies for 
+authentication via Active Directory.
+
+How is it used?
+
+To use Frostale is quite simple:
 
 user = Frostale.new('user@example.com','pass', 
 	'domain\group Global Admins',
