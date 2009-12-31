@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "frostale"
     gem.summary = %Q{Active Directory Login for the Enterprise}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{Frostale allows active directory login through a ruby gem.}
     gem.email = "jbarcelona@gmail.com"
     gem.homepage = "http://github.com/barce/frostale"
     gem.authors = ["barce"]
