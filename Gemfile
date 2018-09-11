@@ -1,5 +1,5 @@
 gem 'jeweler'
-gem 'rdoc', '2.4.2'
+gem 'rdoc' 
 gem 'savon'
 gem 'shoulda'
 gem 'test-unit'
