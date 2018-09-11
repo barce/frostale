@@ -31,4 +31,4 @@ puts "authenticated" if user.isAuth == 'true'
 
 == Copyright
 
-Copyright (c) 2009 - 2018 barce. See LICENSE for details.
+Copyright (c) 2018 barce. See LICENSE for details.
