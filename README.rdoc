@@ -2,13 +2,13 @@
 
 Frostale is an Active Directory Login for the Enterprise.
 
-Who should use it?
+= Who should use it?
 
 * You have Active Directory used for controlling access to networked assets.
 * You want to use Ruby in addition to your current technologies for 
 authentication via Active Directory.
 
-How is it used?
+= How is it used?
 
 To use Frostale is quite simple:
 
