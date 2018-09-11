@@ -1,0 +1,6 @@
+gem 'jeweler'
+gem 'rdoc', '2.4.2'
+gem 'savon'
+gem 'shoulda'
+gem 'test-unit'
+gem 'soap4r'

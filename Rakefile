@@ -11,13 +11,13 @@ begin
     gem.homepage = "http://github.com/barce/frostale"
     gem.authors = ["barce"]
     # gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-	 gem.add_dependency 'aws-s3','0.6.2'
+	  gem.add_dependency 'aws-s3','0.6.2'
 
 
     gem.post_install_message = <<-POST_INSTALL_MESSAGE
  
  
-Thank you for installing frostale - more infor is at
+Thank you for installing frostale - more info is at
 http://github.com/barce/frostale
  
  
@@ -37,24 +37,15 @@ Rake::TestTask.new(:test) do |test|
   test.verbose = true
 end
 
-begin
-  require 'rcov/rcovtask'
-  Rcov::RcovTask.new do |test|
-    test.libs << 'test'
-    test.pattern = 'test/**/test_*.rb'
-    test.verbose = true
-  end
-rescue LoadError
-  task :rcov do
-    abort "RCov is not available. In order to run rcov, you must: sudo gem install spicycode-rcov"
-  end
+desc "Code coverage detail"
+task :simplecov do
+  ENV['COVERAGE'] = "true"
+  Rake::Task['test'].execute
 end
-
-task :test => :check_dependencies
 
 task :default => :test
 
-require 'rake/rdoctask'
+require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 

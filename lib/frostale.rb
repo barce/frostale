@@ -1,5 +1,7 @@
 require 'rubygems'
 require 'soap/wsdlDriver'
+# require 'savon'
+# require 'soap4r'
 require 'pp'
 # require 'aws/s3' # will add in later version
 require 'yaml'
@@ -10,11 +12,16 @@ class Frostale
 
 	def initialize(emailaddress, password, group, ldap_uri)
 		@mldap_uri = ldap_uri
-		@wdsl = SOAP::WSDLDriverFactory.new(@mldap_uri)
+    @wdsl = nil
+    begin
+		  @wdsl = SOAP::WSDLDriverFactory.new(@mldap_uri)
+    rescue => e
+      e.message
+    end
 		@emailaddress = emailaddress
 		@password     = password
 		@groups       = group
-   end
+	end
 
 	def authenticate
 		soap = @wdsl.create_rpc_driver
