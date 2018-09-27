@@ -10,6 +10,8 @@ authentication via Active Directory.
 
 = How is it used?
 
+gem install frostale
+
 To use Frostale is quite simple:
 
 user = Frostale.new('user@example.com','pass', 
