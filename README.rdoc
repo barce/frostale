@@ -31,6 +31,12 @@ puts "authenticated" if user.isAuth == 'true'
   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
+== Maintenance
+This used to be maintained using jeweler.
+I moved maintenance / updates of this gem to juwelier.
+To use juwelier:
+`gem install jewelier`
+
 == Copyright
 
 Copyright (c) 2018 barce. See LICENSE for details.
