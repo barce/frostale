@@ -39,7 +39,7 @@ puts "authenticated" if user.isAuth == 'true'
 This used to be maintained using jeweler.
 I moved maintenance / updates of this gem to juwelier.
 To use juwelier:
-`gem install jewelier`
+`gem install juwelier`
 
 ## Copyright
 
