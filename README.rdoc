@@ -1,5 +1,7 @@
 = frostale
 
+[![Gem Version](https://badge.fury.io/rb/frostale.svg)](https://badge.fury.io/rb/frostale)
+
 Frostale is an Active Directory Login for the Enterprise.
 
 = Who should use it?
