@@ -1,8 +1,6 @@
 # frostale
 
-[![Gem Version](https://badge.fury.io/rb/frostale.svg)](https://badge.fury.io/rb/frostale) 
-
-![downloads](https://img.shields.io/gem/dt/frostale.svg)
+[![Gem Version](https://badge.fury.io/rb/frostale.svg)](https://badge.fury.io/rb/frostale) ![downloads](https://img.shields.io/gem/dt/frostale.svg)
 
 Frostale is an Active Directory Login for the Enterprise.
 
