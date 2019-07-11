@@ -5,6 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "frostale"
+    gem.required_ruby_version = '>= 2.4.6'
     gem.summary = %Q{Active Directory Login for the Enterprise}
     gem.description = %Q{Frostale allows active directory login through a ruby gem.}
     gem.email = "jbarcelona@gmail.com"
