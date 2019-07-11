@@ -13,7 +13,8 @@ begin
     gem.license = "MIT"
     gem.authors = ["barce"]
     # gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-	  gem.add_dependency 'aws-s3','0.6.2'
+	  # gem.add_dependency 'aws-s3','0.6.2'
+    gem.add_dependency 'juwelier', "2.4.9"
 
 
     gem.post_install_message = <<-POST_INSTALL_MESSAGE
