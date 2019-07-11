@@ -49,7 +49,6 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<shoulda>.freeze, [">= 0"])
       s.add_runtime_dependency(%q<test-unit>.freeze, [">= 0"])
       s.add_runtime_dependency(%q<soap4r>.freeze, [">= 0"])
-      s.add_runtime_dependency(%q<juwelier>.freeze, ["= 2.4.9"])
     else
       s.add_dependency(%q<jeweler>.freeze, [">= 0"])
       s.add_dependency(%q<juwelier>.freeze, [">= 2.4.9"])
@@ -58,7 +57,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<shoulda>.freeze, [">= 0"])
       s.add_dependency(%q<test-unit>.freeze, [">= 0"])
       s.add_dependency(%q<soap4r>.freeze, [">= 0"])
-      s.add_dependency(%q<juwelier>.freeze, ["= 2.4.9"])
     end
   else
     s.add_dependency(%q<jeweler>.freeze, [">= 0"])
@@ -68,7 +66,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<shoulda>.freeze, [">= 0"])
     s.add_dependency(%q<test-unit>.freeze, [">= 0"])
     s.add_dependency(%q<soap4r>.freeze, [">= 0"])
-    s.add_dependency(%q<juwelier>.freeze, ["= 2.4.9"])
   end
 end
 
