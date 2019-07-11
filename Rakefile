@@ -10,6 +10,7 @@ begin
     gem.description = %Q{Frostale allows active directory login through a ruby gem.}
     gem.email = "jbarcelona@gmail.com"
     gem.homepage = "http://github.com/barce/frostale"
+    gem.license = "MIT"
     gem.authors = ["barce"]
     # gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
 	  gem.add_dependency 'aws-s3','0.6.2'
