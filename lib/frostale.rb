@@ -1,9 +1,6 @@
 require 'rubygems'
 require 'soap/wsdlDriver'
-# require 'savon'
-# require 'soap4r'
 require 'pp'
-# require 'aws/s3' # will add in later version
 require 'yaml'
 
 class Frostale
