@@ -6,12 +6,12 @@
 
 Gem::Specification.new do |s|
   s.name = "frostale".freeze
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["barce".freeze]
-  s.date = "2019-07-11"
+  s.date = "2020-12-04"
   s.description = "Frostale allows active directory login through a ruby gem.".freeze
   s.email = "jbarcelona@gmail.com".freeze
   s.extra_rdoc_files = [
